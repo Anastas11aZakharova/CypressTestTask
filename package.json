@@ -1,5 +1,10 @@
 {
   "devDependencies": {
     "cypress": "^13.13.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run-default": "npx cypress run",
+    "cy:run-firefox-small-screen": "npx cypress run --config-file cypress.config.alternative.js --browser firefox"
   }
 }
